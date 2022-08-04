@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+} 
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    gap: 150px;
+}
+
+.cabecalho-image{
+    height: 75px;
+
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+ 
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: rgb(243, 243, 243);
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
+.conteudo{
+    border-top: 0.2px solid #ddcfcf;
+    margin-bottom: 40px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: #ffe6e6;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Sarala' sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffe6e6;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: #ffe6e6;
+    border-radius: 15px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    box-shadow: 5px 4px 4px rgba(0,0,0,0.25);
+    font-family: 'Sarala' sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.conteudo-principal-escrito-imagem-balle{
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.conteudo-secundario{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: #ddcfcf 0.2px solid;
+    padding-top: 70px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: #ffe6e6;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Sarala' sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffe6e6;
+}
+
+.conteudo-footer-final{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #3b292c38;
+}
+
+.conteudo-footer-imagem{
+    width: 150px;
+}
