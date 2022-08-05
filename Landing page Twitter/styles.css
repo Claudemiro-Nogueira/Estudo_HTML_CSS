@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: rgb(194, 194, 194);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(175deg, #49efff 0, #52c4ff 25%, #509acc 50%, #477295 75%, #394e63 100%);
+}
+
+.divprincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    border: 0.3px solid black;
+    border-radius: 17px;
+    width: 700px;
+    padding-top: 10px;
+    background-color: black;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Righteous', cursive;;
+    font-weight: 400;
+    font-size: 18px;
+   
+}
+
+.cabecalho-imagem{
+    width: 30px;
+    
+}
+
+.cabecalho-titulo{
+    padding-top: 30px;
+    color: white;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+.principal-button-google{
+    width: 350px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.principal-button-apple{
+    width: 350px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.imputprincipal{
+    width: 350px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: rgb(199, 199, 199);
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    border: 0.01px solid white;
+  
+}
+.principal-button-avancar{
+    width: 350px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.principal-button-esqueceusenha{
+    width: 350px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.rodape{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.rodape-texto{
+    color: white;
+}
