@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="#151515" text="white">
+    <div class="container">
+        <div onclick="trocar()" class="circulo aparece"><ion-icon name="arrow-back-outline"></ion-icon></div>
+        <div class="carta">
+            <img id="imagem" src="https://pbs.twimg.com/media/E-h_65oX0AUY2OW?format=jpg&name=large" alt="">
+            <h2 id="nome" >Jessie Cage</h2>
+        </div>
+        <div class="botoes">
+        <div onclick="trocar()" class="circulo aparece"><ion-icon name="arrow-forward-outline"></ion-icon></div>
+        <div onclick="trocar()" class="circulo none"><ion-icon name="arrow-back-outline"></ion-icon></div>
+        <div onclick="trocar()" class="circulo none"><ion-icon name="arrow-forward-outline"></ion-icon></div>
+        </div>  
+    </div>
+    <script src="./javascript.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
