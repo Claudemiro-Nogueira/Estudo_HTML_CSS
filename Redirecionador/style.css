@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+
+
+
+.temaBranco{
+    --bg: #005f6b;
+    --fontColor: #ffffff; 
+    --buttonColor: #005f6b; 
+    --buttonFont: rgb(255, 255, 255);
+    --container:#005f6b;
+    --escuro: #00424b;
+}
+
+.temaEscuro{
+    --bg: var(--branco);
+    --fontColor: var(--branco); 
+    --buttonColor: var(--preto);
+    --buttonFont: var(--divcor);
+    --container: var(--divcor);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg);
+}
+
+body * {
+    color: var(--fontColor);
+}
+
+
+.container {
+    display: flex;
+    background-color: var(--container);
+    border: solid 1px rgb(32, 21, 21);
+    width: 400px;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 40px;
+    gap: 20px;
+    border: none;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttonLink {
+    text-decoration: none;
+    padding: 20px;
+    color: var(--buttonFont);
+    background-color: var(--buttonColor);
+    width: 100%;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 30px;
+}
+
+.buttonLink:hover {
+    box-shadow: 2px;
+    background-color: rgba(255, 255, 255, 0.247);
+    transform: scale(1.1);
+    width: 50%;
+}
+
+
+
+/* Pagina sobre */
+
+.sobre{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position: absolute;
+    background-color: var(--escuro);
+    width: 80%;
+    height: 80%;
+    border-radius: 15px;
+    
+}
+
+.sobre p{
+    text-align: center;
+    width: 50%;
+}
